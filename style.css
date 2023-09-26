@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    height: 70px;
+    background-color: rgb(18, 18, 62);
+    box-shadow: 1px, 1px, 3px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    color: wheat;
+}
+
+ul li {
+
+    list-style: none;
+    margin: 21px;
+    gap: 10px;
+    font-size: 1.2rem;
+
+}
+
+ul li a:hover {
+    color: purple;
+    box-shadow: 0px 0px 8px 8px rgb(29,138,102);
+
+}
+
+.left p {
+    margin: 21px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.dummy-img {
+
+    height: 400px;
+    margin-right: 70px;
+
+}
+
+.primary-button{
+    
+}
+
+main {
+    margin-inline: 40px;
+    margin-top: 9em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.left-content {
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 3rem;
+    width: 550px;
+    color: white;
+}
+
+.purple {
+    color: purple;
+}
+
+button {
+    cursor: pointer;
+    padding: 12px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 0px 5px 5px purple;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px 8px rgb(29,138,102);
+
+}
+
+button:hover {
+    color: rgb(196, 32, 196);
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.technical-skill {
+    margin-top: 100px;
+    color: white;
+    font-size: 2rem;
+}
+
+.profesional-skill {
+    margin-top: 100px;
+    color: white;
+    font-size: 2rem;
+}
+
+.color {
+    height: 400px;
+    background-color: blueviolet;
+}
+
+hr {
+    height: 3px;
+    color: white;
+    background-color: white;
+}
+
+.top-down {
+    margin-top: 60px;
+}
+
+/* skillll */
+
+.my-skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 2.1rem;
+}
+
+.img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.line-progress{
+    background: #959595;
+    width: 400px;
+    height: 10px;
+    border-radius: 20px;
+
+}
+
+.line-progress div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: rgb(204, 48, 48);
+}
+
+
+.line-progress .css{
+    background-color: cadetblue;
+}
+.line-progress .javascript{
+    background-color: rgb(233, 192, 10);
+}
+.line-progress .react{
+    background-color: rgb(4, 99, 102);
+}
+ 
+
+.line-progress div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 0.8rem;
+
+}
+
+.per{
+    font-size: 1rem;
+}
+
+@keyframes html{
+    100%{
+        width: 90%
+    }
+}
+
+@keyframes css{
+    100%{
+        width: 80%
+    }
+}
+
+@keyframes javascript{
+    100%{
+        width: 70%
+    }
+}
+@keyframes react{
+    100%{
+        width: 50%
+    }
+}
+
+
+
+
+.html{
+    background-color: rgb(122, 122, 121) ;
+    animation: html 2s linear forwards;
+}
+.css{
+    background-color: rgb(122, 122, 121) ;
+    animation: css 2s linear forwards;
+}
+.javascript{
+    background-color: rgb(122, 122, 121) ;
+    animation: javascript 2s linear forwards;
+}
+.react{
+    background-color: rgb(122, 122, 121) ;
+    animation: react 2s linear forwards;
+}
+
+.blue {
+    width: 280px;
+    background-color: rgb(224, 106, 224);
+}
+
+.red {
+    width: 240px;
+    background-color: rgb(89, 143, 36);
+}
+
+.red p {
+    color: white;
+}
+
+.green {
+    background-color: rgb(86, 86, 228);
+    width: 200px;
+}
+
+.green p {
+    padding-left: 130px;
+    color: azure;
+}
+
+ .circle1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+ }
+
+ .circle1:hover{
+    box-shadow: 0px 0px 8px 8px rgb(29,138,102);
+ }
+
+ .circle1 p {
+    margin-top: 60px;
+    margin-left: 20px;
+ }
+
+ /* project section */
+
+ .sub-title{
+    text-align: center;
+    margin-top: 30px;
+    color: purple;
+    font-size: 2rem;
+    
+ }
+
+ #portfolio{
+    padding: 50px 0;
+
+}
+.work-list{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 50px 40px;
+}
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0,0,0,0.6), purple);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+.layer h3{
+    font-weight: 900;
+    margin-bottom: 25px;
+    font-size: 2rem;
+
+
+}
+.layer a{
+    margin-top: 20px;
+    color: purple ;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    height: 50px;
+    width: 190px;
+    text-align: center;
+    padding-top: 12px;
+    border: 1px solid rgb(235, 167, 42) ;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition:background 0.5s;
+}
+.btn:hover{
+    background: rgb(235, 167, 42) ;
+
+}
+
+.work p{
+    color: white;
+    font-size: 1.1rem;
+}
+ /* project.....end */
+
+ 
+ .box{
+    text-align: center;
+    margin-top: 50px;
+ }
+ .circle0{
+    display: flex;
+    margin-top: 40px;
+    gap: 100px;
+ }
+
+ .circle2{
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+
+ }
+
+ .me{
+    width: 350px;
+    height: 350px;
+ }
+
+ .line{
+    margin-top: 50px;
+ }
+
+ .about{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .my-content{
+    width: 450px;
+    font-size: 1.3rem;
+    color: white;
+ }
+
+ 
+
+ .about-me{
+    margin-left: 67%;
+    margin-top: 50px;
+    font-size: 2rem;
+    color: white;
+ }
+
+ .footer{
+    margin-top: 80px;
+ }
+
+ .footer-content{
+    display: flex;
+    justify-content: space-around;
+
+ }
+
+ .Contact-details{
+    width: 600px;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.3rem;
+
+ }
+
+ .massage{
+     margin-left: 5px;
+    margin-top: 3px;
+    
+    
+ }
+
+
+
+ .contact{
+    margin-top: 30px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 220px;
+ }
+
+ .details{
+    padding: 15px;
+    width: 400px;
+    border-radius: 5px;
+   
+    
+ }
+
+ input{
+    margin: 3px;
+    border: none;
+    color: transparent;
+ }
+
+  
+
+ .right-footer{
+    margin-top: 25px;
+ }
+
+ .social{
+    height: 40px;
+    padding: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+ }
+
+ .social:hover{
+    box-shadow: 0px 0px 8px 8px rgb(29, 138,102);
+
+ }
+
+ .btn1{
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    margin-left: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: purple;
+    box-shadow: 0px 0px 5px 5px purple;
+    cursor: pointer;
+     
+ }
+
+ .btn1:hover{
+    box-shadow: 0px 0px 8px 8px rgb(29, 138, 102);
+
+
+ }
